@@ -1,8 +1,8 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=26&duration=2800&pause=900&color=00F7FF&center=true&vCenter=true&width=700&lines=Hi%2C+I'm+Saravana+%F0%9F%91%8B;AI+Engineer+%7C+Full+Stack+Developer;Building+Intelligent+%26+Modern+Applications;Turning+Ideas+Into+Real+Products+%F0%9F%9A%80" alt="Typing SVG" />
+<img src="./assets/hero.svg" width="100%" alt="Saravana animated developer banner">
 
-<br>
+</div>
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=180&section=header&text=SARAVANA&fontSize=55&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=AI%20%7C%20FULL%20STACK%20%7C%20SOFTWARE&descAlignY=60&descSize=18" width="100%" />
 
