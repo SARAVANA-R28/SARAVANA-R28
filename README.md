@@ -285,7 +285,7 @@ Smart automation project combining voice interaction with IoT-based waste-bin co
 
 ## 🐍 MY CONTRIBUTION JOURNEY
 
-<img src="https://raw.githubusercontent.com/SARAVANA-R28/SARAVANA-R28/output/github-contribution-grid-snake.svg" width="100%" />
+<img src="https://raw.githubusercontent.com/SARAVANA-R28/SARAVANA-R28/gh-pages/github-contribution-grid-snake.svg" width="100%" alt="GitHub contribution snake" />
 
 </div>
 
