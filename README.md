@@ -3,14 +3,11 @@
 <img src="./assets/hero.svg" width="100%" alt="Saravana animated developer banner">
 
 </div>
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=180&section=header&text=SARAVANA&fontSize=55&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=AI%20%7C%20FULL%20STACK%20%7C%20SOFTWARE&descAlignY=60&descSize=18" width="100%" />
-
 <br>
-
+<div align="center">
 <a href="https://github.com/SARAVANA-R28">
 <img src="https://img.shields.io/badge/GitHub-SARAVANA--R28-181717?style=for-the-badge&logo=github" />
-</a>
+</a> 
 <a href="https://www.linkedin.com/">
 <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
 </a>
