@@ -20,29 +20,11 @@
 
 <div align="center">
 
-## 👨‍💻 `Who Am I`
+<img src="./assets/terminal.svg"
+     width="95%"
+     alt="Saravana developer terminal">
 
 </div>
-
-```text
-╭────────────────────────────────────────────────────────────╮
-│                                                            │
-│  👋 Hey! I'm Saravana                                      │
-│                                                            │
-│  🤖 AI Engineer                                             │
-│  🌐 Full Stack Developer                                    │
-│  💻 Software Developer                                      │
-│                                                            │
-│  I enjoy building intelligent applications,                │
-│  modern web experiences and practical software              │
-│  that turn ideas into real-world solutions.                 │
-│                                                            │
-│  🚀 Currently focused on AI Engineering & Full Stack        │
-│  🌱 Continuously learning, building and experimenting       │
-│                                                            │
-╰────────────────────────────────────────────────────────────╯
-```
-
 <div align="center">
 
 ### `Building → Learning → Experimenting → Improving`
