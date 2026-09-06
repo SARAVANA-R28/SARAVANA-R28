@@ -1,0 +1,242 @@
+<svg width="1000" height="360" viewBox="0 0 1000 360"
+  xmlns="http://www.w3.org/2000/svg">
+
+<defs>
+
+  <linearGradient id="terminalBg" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#050816"/>
+    <stop offset="100%" stop-color="#0F172A"/>
+  </linearGradient>
+
+  <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0%" stop-color="#00F5FF"/>
+    <stop offset="50%" stop-color="#7C3AED"/>
+    <stop offset="100%" stop-color="#00F5FF"/>
+  </linearGradient>
+
+  <filter id="glow">
+    <feGaussianBlur stdDeviation="4" result="blur"/>
+    <feMerge>
+      <feMergeNode in="blur"/>
+      <feMergeNode in="SourceGraphic"/>
+    </feMerge>
+  </filter>
+
+</defs>
+
+<!-- Terminal window -->
+
+<rect x="10"
+   y="10"
+   width="980"
+   height="340"
+   rx="18"
+   fill="url(#terminalBg)"
+   stroke="#1E293B"
+   stroke-width="2"/>
+
+<!-- Top bar -->
+
+<rect x="10"
+   y="10"
+   width="980"
+   height="48"
+   rx="18"
+   fill="#111827"/>
+
+<!-- Fix bottom corners of top bar -->
+
+<rect x="10"
+   y="38"
+   width="980"
+   height="20"
+   fill="#111827"/>
+
+<!-- Traffic lights -->
+
+<circle cx="40" cy="34" r="7" fill="#EF4444"/>
+<circle cx="64" cy="34" r="7" fill="#F59E0B"/>
+<circle cx="88" cy="34" r="7" fill="#22C55E"/>
+
+<!-- Terminal title -->
+
+<text x="500"
+   y="39"
+   text-anchor="middle"
+   fill="#64748B"
+   font-family="monospace"
+   font-size="14">
+
+```
+  saravana@developer: ~
+```
+
+</text>
+
+<!-- Command 1 -->
+
+<text x="45"
+   y="95"
+   fill="#22C55E"
+   font-family="monospace"
+   font-size="17">
+
+```
+  saravana@dev:~$
+```
+
+</text>
+
+<text x="210"
+   y="95"
+   fill="#E2E8F0"
+   font-family="monospace"
+   font-size="17">
+
+```
+  whoami
+```
+
+</text>
+
+<!-- Output -->
+
+<text x="45"
+   y="125"
+   fill="#00F5FF"
+   font-family="monospace"
+   font-size="17">
+
+```
+  &gt; AI Engineer
+```
+
+</text>
+
+<text x="45"
+   y="150"
+   fill="#CBD5E1"
+   font-family="monospace"
+   font-size="17">
+
+```
+  &gt; Full Stack Developer
+```
+
+</text>
+
+<text x="45"
+   y="175"
+   fill="#CBD5E1"
+   font-family="monospace"
+   font-size="17">
+
+```
+  &gt; Software Developer
+```
+
+</text>
+
+<!-- Command 2 -->
+
+<text x="45"
+   y="215"
+   fill="#22C55E"
+   font-family="monospace"
+   font-size="17">
+
+```
+  saravana@dev:~$
+```
+
+</text>
+
+<text x="210"
+   y="215"
+   fill="#E2E8F0"
+   font-family="monospace"
+   font-size="17">
+
+```
+  current_focus
+```
+
+</text>
+
+<!-- Output -->
+
+<text x="45"
+   y="245"
+   fill="#A78BFA"
+   font-family="monospace"
+   font-size="17">
+
+```
+  &gt; Artificial Intelligence
+```
+
+</text>
+
+<text x="45"
+   y="270"
+   fill="#A78BFA"
+   font-family="monospace"
+   font-size="17">
+
+```
+  &gt; Full Stack Development
+```
+
+</text>
+
+<text x="45"
+   y="295"
+   fill="#A78BFA"
+   font-family="monospace"
+   font-size="17">
+
+```
+  &gt; Building real-world products
+```
+
+</text>
+
+<!-- Blinking cursor -->
+
+<rect x="45"
+   y="315"
+   width="10"
+   height="18"
+   fill="#00F5FF">
+
+<animate attributeName="opacity"
+        values="1;0;1"
+        dur="0.9s"
+        repeatCount="indefinite"/>
+
+</rect>
+
+<!-- Animated scan line -->
+
+<line x1="20"
+   y1="65"
+   x2="980"
+   y2="65"
+   stroke="url(#line)"
+   stroke-width="2"
+   opacity="0.7"
+   filter="url(#glow)">
+
+<animate attributeName="y1"
+        values="65;330;65"
+        dur="7s"
+        repeatCount="indefinite"/>
+
+<animate attributeName="y2"
+        values="65;330;65"
+        dur="7s"
+        repeatCount="indefinite"/>
+
+</line>
+
+</svg>
